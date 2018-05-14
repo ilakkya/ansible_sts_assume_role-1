@@ -11,8 +11,6 @@
         module: sts_assume_role
         profile: "{{sts_profile}}"
         region: "{{region}}"
-        mfa_serial_number: "{{sts_mfa | default(omit)}}"
-        mfa_token: "{{sts_mfatoken | default(omit)}}"
         role_arn: "{{sts_role_arn}}"
         role_session_name: "{{sts_role_session_name}}"
       register: assumed_role

@@ -5,5 +5,5 @@ aws_access_key: "{{aws_access}}"
 aws_secret_key: "{{aws_secret}}"
 
 region: "ap-southeast-2"
-sg_name: "test-sg" # Name for new AWS Security Group
-vpc_id: "vpc-XXXXXXXX" # Existing VPCID from lab account
+sg_name: "ansibletestsg" # Name for new AWS Security Group
+vpc_id: "vpc-92f066f5" # Existing VPCID from lab account
